@@ -16,6 +16,7 @@ a {
 ul {
   list-style: none;
   margin: 0;
+  padding: 0;
 }
 
 body {
@@ -23,22 +24,22 @@ body {
   font-size: 14px;
   color: var(--brand-text-color);
   background-color: var(--body-background);
+  
 }
 
 h1,h2,h3,h4,h5,h6{
-  margin: 0;
+  margin: 0 auto;
 }
 .container {
-  width: 1230px;
+  max-width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+  
 }
 
-.hat-container{
-  justify-content: space-between;
-  flex-direction: row;
-  display: flex;
+.section {
+  padding: 94px 0px;
 }
 
 .web-title {
@@ -51,7 +52,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .menu-item:not(:first-child) {
-padding-left: 50px;
+  margin-left: 50px;
 }
 .logo {
   color: #000000;
@@ -81,7 +82,9 @@ padding-left: 50px;
 
 .order{
   background-color: var(--secondary-background);
+  padding: 200px;
   text-align: center;
+  
 }
 
 .order-title {
@@ -89,9 +92,12 @@ padding-left: 50px;
   font-size: 44px;
   line-height: 1.36;
   color: var(--body-background);
-  
+  width: 696px;
   letter-spacing: 0.06em;
+  margin-bottom: 32px;
   text-transform: uppercase;
+  
+  
 }
 
 .order-btn {
@@ -103,12 +109,15 @@ padding-left: 50px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
-  align-items: center;
   letter-spacing: 0.06em;
   font-family: 'Roboto', sans-serif;
   color: var(--body-background);
   cursor: pointer;
+  display: inline-block;
+}
 
+.advantage-section {
+  padding: 94px 0px;
 }
 
 .title-hidden{
@@ -127,6 +136,14 @@ padding-left: 50px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+  margin: 0;
+  margin-top: 8px;
+}
+
+.direction-section,section {
+  padding: o;
+  outline: 1px solid tomato;
+
 }
 
 .title-second {
