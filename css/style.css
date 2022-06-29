@@ -42,18 +42,26 @@ h1,h2,h3,h4,h5,h6{
   padding: 94px 0px;
 }
 
+.hat-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .web-title {
   color: var(--active-text-color);
  
 }
 
-.hat li {
-  display: inline-block;
+.menu {
+  display: flex;
 }
 
-.menu-item:not(:first-child) {
-  margin-left: 50px;
-}
 .logo {
   color: #000000;
   font-family: 'Raleway';
@@ -62,15 +70,27 @@ h1,h2,h3,h4,h5,h6{
   letter-spacing: 0.03em;
 }
 
+.menu-item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .menu-link {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--brand-text-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: inline-block;
 }
 
 .link:hover,  .link:focus, .link:active {
   color: var(--active-text-color);
+}
+
+.contacts {
+  display: flex;
+
 }
 
 .contacts-link {
@@ -78,6 +98,8 @@ h1,h2,h3,h4,h5,h6{
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .order{
