@@ -19,6 +19,10 @@ ul {
   padding: 0;
 }
 
+p {
+  margin: 0 auto;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
@@ -308,7 +312,9 @@ h1,h2,h3,h4,h5,h6{
   font-size: 16px;
   line-height: 1.625;
   letter-spacing: 0.03em;
+  color: var(--brand-text-color);
   border: none;
+  padding: 6px 22px;
 }
 
 .sidebar-btn:hover, .sidebar-btn:focus, .sidebar-btn:active  {
@@ -319,12 +325,14 @@ h1,h2,h3,h4,h5,h6{
 .example {
   display: flex;
   flex-wrap: wrap;
+  
 }
 
 .example-element {
   margin-top: 32px;
   margin-left: 32px;
   width: 370px;
+  
 }
 
 .example-element:nth-child(3n + 1) {
@@ -335,6 +343,9 @@ h1,h2,h3,h4,h5,h6{
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-top: 20px;
+  margin-left: 24px;
+  margin-bottom: 4px;
 }
 
 .example-text{
@@ -342,4 +353,11 @@ h1,h2,h3,h4,h5,h6{
   line-height: 1.875;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+  margin-left: 24px;
+  margin-bottom: 20px;
+}
+
+.example-border {
+  border: 1px solid #f6f6f6;
+  border-top: 0px;
 }
