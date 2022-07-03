@@ -39,6 +39,7 @@ h1,h2,h3,h4,h5,h6{
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+ 
   
 }
 
@@ -148,6 +149,7 @@ h1,h2,h3,h4,h5,h6{
   color: var(--body-background);
   cursor: pointer;
   display: inline-block;
+  border: none;
 }
 
 .advantage-section {
