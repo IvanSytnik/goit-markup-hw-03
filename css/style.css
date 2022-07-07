@@ -49,6 +49,13 @@ h1,h2,h3,h4,h5,h6{
   padding-bottom: 94px;
 }
 
+.title-hidden{
+  font-size: 0px;
+  color: rgba(0, 0, 0, 0);
+}
+
+/* Header section */
+
 .hat-list {
   display: flex;
   align-items: center;
@@ -117,6 +124,8 @@ h1,h2,h3,h4,h5,h6{
   padding-bottom: 32px;
 }
 
+/*Order section*/
+
 .order{
   background-color: var(--secondary-background);
   padding: 200px 0px;
@@ -154,6 +163,7 @@ h1,h2,h3,h4,h5,h6{
   border: none;
 }
 
+/*Advatage section*/
 .advantage-section {
   padding: 94px 0px;
 }
@@ -172,11 +182,6 @@ h1,h2,h3,h4,h5,h6{
 
 .advantage-element:nth-child(4n) {
   margin-right: 0px;
-}
-
-.title-hidden{
-  font-size: 0px;
-  color: rgba(0, 0, 0, 0);
 }
 
 .advantage-title {
@@ -206,6 +211,8 @@ h1,h2,h3,h4,h5,h6{
   letter-spacing: 0.03em;
 }
 
+
+/*Direction section*/
 .direction {
   display: flex;
   flex-wrap: wrap;
@@ -221,6 +228,8 @@ h1,h2,h3,h4,h5,h6{
   margin-left: 0px;
 }
 
+
+/*Team section*/
 .team-section{
   background-color: var(--team-background);
 }
@@ -268,6 +277,7 @@ h1,h2,h3,h4,h5,h6{
   
 }
 
+/*Footer*/
 .footer-section {
   background-color: var(--secondary-background);
   padding: 60px 0px;
@@ -306,6 +316,7 @@ h1,h2,h3,h4,h5,h6{
   
 }
 
+/* Portfolio*/
 .sidebar {
   display: flex;
   margin-left: 280px;
